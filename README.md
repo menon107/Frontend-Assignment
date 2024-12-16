@@ -1,20 +1,27 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 install the necessary dependancies:
+```bash
 npm install @radix-ui/react-dialog @radix-ui/react-select @radix-ui/react-slot class-variance-authority clsx tailwind-merge lucide-react framer-motion next-themes
+```
 
 run shadcn init command
+```bash
 npx shadcn@latest init
+```
 
 install the ui components from shadcn
+```bash
 npx shadcn@latest add button
 npx shadcn@latest add input
 npx shadcn@latest add dialog
 npx shadcn@latest add select
 npx shadcn@latest add card
 npx shadcn@latest add textarea
+```
 
 the required file structure is :
+```bash
 app/
 ├── components/
 │   ├── BackgroundLines.tsx
@@ -25,10 +32,9 @@ app/
 └── globals.css
 lib/
 └── utils.ts
+```
 
-## Getting Started
-
-First, run the development server:
+then, run the development server:
 
 ```bash
 npm run dev
